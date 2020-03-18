@@ -34,7 +34,12 @@ body {
 }
 
 #logo {
-    padding: 45px;
+    padding: 45px 0px 0px;
+
+}
+
+.imglogo {
+    text-align: left;
 }
 
 .float-left {
@@ -54,7 +59,7 @@ body {
 .float-left-menu {
     height: 100%;
     width: 45%;
-    background-color: gold;
+    background-color: ;
 }
 
 .float-left-hbottom {
@@ -83,7 +88,7 @@ body {
 
 #jumbotron {
     height: 400px;
-    background-color: #D7C1CC;
+    background-color: ;
 }
 
 .jumbo-left {
@@ -134,7 +139,7 @@ body {
 
 .jumbo-right {
     width: 65%;
-    background-image: url("images/habbo.png");
+    /*background-image: url("images/habbo.png");*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -143,7 +148,7 @@ body {
 }
 
 #sectionmain {
-    background-color: #D7C1CC;
+    background-color: ;
 }
 
 .feature-top {
@@ -153,14 +158,14 @@ body {
 .feature1 {
     width: 30%;
     height: 300px;
-    background-color: brown;
+    background-color: ;
     float: left;
 }
 
 .feature2 {
     width: 70%;
     height: 300px;
-    background-color: Coral;
+    background-color: ;
     float: left;
     position: relative;
 }
@@ -202,7 +207,7 @@ ul li {
 }
 
 .featurebox1 {
-    background-color: green;
+    background-color: ;
     width: 360px;
     height: 300px;
     float: left;
@@ -210,7 +215,7 @@ ul li {
 }
 
 .featurebox2 {
-    background-color: red;
+    background-color: ;
     width: 360px;
     height: 300px;
     float: left;
@@ -218,7 +223,7 @@ ul li {
 }
 
 .featurebox3 {
-    background-color: yellow;
+    background-color: ;
     width: 360px;
     height: 300px;
     float: left;
