@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+    background-color: yellow;
+    height: 100%;
+}
+
+#header-top {
+    height: 120pX;
+}
+
+#header-top::after {
+    position: fixed;
+}
+
+#header-bottom {
+    height: 120pX;
+
+}
+
+.float-left {
+    float: left;
+    background-color: green;
+    height: 100%;
+    width: 50%;
+}
+
+.float-right {
+    float: left;
+    background-color: red;
+    height: 100%;
+    width: 50%;
+}
+
+
+.float-left-menu {
+    height: 100%;
+    width: 45%;
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+.float-left-hbottom {
+    float: left;
+    background-color: green;
+    height: 100%;
+    width: 25%;
+
+}
+
+.float-right-hbottom {
+    float: left;
+    background-color: white;
+    height: 100%;
+    width: 75%;
+
+}
+
+
+
+
+
+
+#jumbotron {
+    height: 600px;
+}
+
+.jumbo-left {
+  width: 40%;
+    background-color: blue;
+    height: 100%;
+}
