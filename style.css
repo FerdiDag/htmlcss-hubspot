@@ -26,26 +26,22 @@ body {
     width: 100%;
     position: fixed;
     background-color: #f5f8fa;
-    border-bottom: 1px solid #cbd6e2;;
-
-
-
+    border-bottom: 1px solid #cbd6e2;
+    ;
 }
 
 /*#header-top::after {
     position: fixed;
 }*/
-
 #header-bottom {
-    padding: 50px;
-    height: 150px;
-
-    border-bottom: 1px solid #cbd6e2;;
+    padding-top: 100px;
+    height: 220px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cbd6e2;
 }
 
 #logo {
     padding: 45px 0px 0px;
-
 }
 
 .imglogo {
@@ -73,10 +69,6 @@ body {
     line-height: 110px;
 }
 
-
-
-
-
 .float-left-hbottom {
     float: left;
     background-color: ;
@@ -95,26 +87,24 @@ body {
     height: 100%;
     width: 75%;
     text-align: right;
-    padding: 50px;
+    line-height: 120px;
 }
 
 .float-right-hbottom a {
-    margin: 30px;
+    padding-left: 18px;
+    margin-right: 25px;
     font-size: 18px;
     text-decoration: none;
     color: #33475b;
     font-weight: bolder;
-
+    padding-right: 9px;
 }
-
 
 .hubspot {
     background-color: #ff7a59;
     padding: 10px;
     margin-right: 5%;
     color: white;
-
-
 }
 
 .login {
@@ -129,10 +119,6 @@ body {
     display: inline-block;
 }
 
-
-
-
-
 #jumbotron {
     height: 700px;
     /*background-color: rgb(255, 235, 205 , 0.4);*/
@@ -141,11 +127,10 @@ body {
 }
 
 .jumbo-left {
-    width: 40%;
+    width: 35%;
     background-color: ;
     float: left;
-    margin-top: 150px;
-
+    margin-top: 100px;
 }
 
 .jumbo-left h1 {
@@ -188,8 +173,6 @@ body {
     margin: 18px 0px 0px;
 }
 
-
-
 #sectionmain {
     background-color: ;
 }
@@ -198,30 +181,35 @@ body {
     width: 100%;
 }
 
-.feature1 {
+.feature-box-top-left {
     width: 30%;
     height: 300px;
     background-color: ;
     float: left;
+    padding-top: 50px;
+    padding-left: 80px;
 }
 
-.feature2 {
+.feature-box-top-right {
     width: 70%;
     height: 300px;
     background-color: ;
     float: left;
-    position: relative;
 }
 
 .featurewrapper {
+    padding-top: 55px;
+    padding-left: 120px;
+}
+
+/*.featurewrapper {
     width: 50%;
     margin-left: 100px;
     position: absolute;
     top: 15%;
     left: 5%;
     transform: translate(-50%; );
-}
-
+}*/
 .featurewrapper li {
     display: inline-block;
     list-style-type: none;
@@ -239,6 +227,12 @@ ul li {
     width: 100%;
 }
 
+.feature-bottom::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
 .feature-bottom h4 {
     font-size: 20px;
     margin: 10px;
@@ -249,57 +243,68 @@ ul li {
     font-size: 14px;
 }
 
-.featurebox1 {
+.feature-box-bottom {
     background-color: ;
     width: 360px;
-    height: 300px;
     float: left;
-    position: relative;
-}
-
-.featurebox2 {
-    background-color: ;
-    width: 360px;
-    height: 300px;
-    float: left;
-    position: relative;
-}
-
-.featurebox3 {
-    background-color: ;
-    width: 360px;
-    height: 300px;
-    float: left;
-    position: relative;
+    margin-bottom: 50px;
 }
 
 .wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    max-width: 60%;
+    margin: auto;
 }
 
-#sectionresults {}
+#results {
+    height: 1000px;
+    background: linear-gradient(37deg, rgba(0, 181, 182, 1) 50%, rgba(0, 187, 154, 1) 91%);
+}
+
+.results-header {
+    background-color: ;
+    height: 150px;
+    width: 100%;
+}
+
+.results-headersection {
+    background-color: ;
+    height: 150px;
+    margin: auto;
+    width: 50%;
+}
+
+#results h2 {
+    color: white;
+    margin: 15px 0px;
+    font-size: 31px;
+}
+
+#results p {
+    color: white;
+    margin: 18px 0px;
+    font-size: 18px;
+}
+
+.results-row {
+    background-color: ;
+    margin-top: 200px;
+    margin-left: 55px;
+}
 
 .row {
-    width: 100%;
-
+    display: inline-block;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 200px;
+    width: 250px;
+    background-color: ;
+    text-align: center;
+    padding: 30px;
 }
 
-.awardtitle {
-    margin: auto;
-
-    max-width: 700px;
+.row img {
+    text-align: center;
 }
 
-.awardtitle p {
-    font-size: 18px;
-    margin: 18px 0px 0px;
-}
-
-
-.awardtitle h2 {
-    font-size: 30px;
-    margin: 18px;
-}
+/*text-align: center;
+    padding: 30px;*/
