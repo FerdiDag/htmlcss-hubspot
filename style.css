@@ -190,6 +190,16 @@ body {
     padding-left: 80px;
 }
 
+
+.feature-box-top-left p{
+    padding-top: 25px;
+}
+
+
+
+
+
+
 .feature-box-top-right {
     width: 70%;
     height: 300px;
@@ -222,6 +232,12 @@ ul li {
 .feature-bottom-list li {
     margin-left: 10px;
 }
+
+.feature-box-top-right h4 {
+    line-height: 40px;
+    font-size: 20px;
+}
+
 
 
 
@@ -259,6 +275,8 @@ ul li {
     max-width: 60%;
     margin: auto;
 }
+
+
 
 #results {
     padding-top: 50px;
