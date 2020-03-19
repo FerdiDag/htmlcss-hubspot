@@ -22,15 +22,18 @@ body {
 }
 
 #header-top {
-    height: 120pX;
-}
-
-#header-top::after {
+    height: 150px;
+    width: 100%;
     position: fixed;
 }
 
+/*#header-top::after {
+    position: fixed;
+}*/
+
 #header-bottom {
-    height: 120pX;
+    padding: 50px;
+    height: 150px;
 }
 
 #logo {
@@ -60,6 +63,7 @@ body {
     height: 100%;
     width: 45%;
     background-color: ;
+    line-height: 100px;
 }
 
 .float-left-hbottom {
@@ -86,9 +90,37 @@ body {
     font-weight: bolder;
 }
 
+
+.hubspot {
+    background-color: #ff7a59;
+    padding: 10px;
+    margin-right: 5%;
+    color: white;
+
+}
+
+.login {
+    padding: 12px 30px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #ff7a59;
+    margin-left: 8px;
+    color: #ff7a59;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.buttons {
+    float: right;
+
+}
+
+
+
 #jumbotron {
     height: 400px;
-    background-color: ;
+    background-color: rgb(255, 235, 205 , 0.4);
 }
 
 .jumbo-left {
