@@ -11,8 +11,8 @@ body {
 .container {
     width: 1080px;
     margin: auto;
-    background-color: ;
-    height: 100%;
+
+
 }
 
 .container::after {
@@ -223,15 +223,20 @@ ul li {
     margin-left: 10px;
 }
 
+
+
 .feature-bottom {
     width: 100%;
+    margin-bottom: 40px;
 }
 
-.feature-bottom::after {
+ .feature-bottom::after {
     clear: both;
     display: table;
     content: "";
 }
+
+
 
 .feature-bottom h4 {
     font-size: 20px;
@@ -256,21 +261,18 @@ ul li {
 }
 
 #results {
-    height: 1000px;
+    padding-top: 50px;
     background: linear-gradient(37deg, rgba(0, 181, 182, 1) 50%, rgba(0, 187, 154, 1) 91%);
+    padding-bottom: 50px;
 }
 
-.results-header {
-    background-color: ;
-    height: 150px;
-    width: 100%;
-}
 
 .results-headersection {
-    background-color: ;
-    height: 150px;
+
+
     margin: auto;
     width: 50%;
+    margin-top: 50px;
 }
 
 #results h2 {
@@ -287,7 +289,7 @@ ul li {
 
 .results-row {
     background-color: ;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 55px;
 }
 
@@ -306,5 +308,29 @@ ul li {
     text-align: center;
 }
 
-/*text-align: center;
-    padding: 30px;*/
+
+#growth {
+
+}
+
+.growth-left {
+
+    width: 30%;
+float: left;
+}
+
+.growth-right {
+
+    width: 70%;
+    height: 50px;
+    background-color: green;
+    float: right;
+}
+
+.growth-left h2 {
+    font-size: 45px;
+}
+
+.growth-right p {
+    font-size: 21px;
+}
