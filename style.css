@@ -22,9 +22,14 @@ body {
 }
 
 #header-top {
-    height: 150px;
+    height: 100px;
     width: 100%;
     position: fixed;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;;
+
+
+
 }
 
 /*#header-top::after {
@@ -34,6 +39,8 @@ body {
 #header-bottom {
     padding: 50px;
     height: 150px;
+    
+    border-bottom: 1px solid #cbd6e2;;
 }
 
 #logo {
@@ -63,14 +70,23 @@ body {
     height: 100%;
     width: 45%;
     background-color: ;
-    line-height: 100px;
+    line-height: 110px;
 }
+
+
+
+
 
 .float-left-hbottom {
     float: left;
     background-color: ;
     height: 100%;
     width: 25%;
+}
+
+.float-right-menu {
+    text-align: right;
+    line-height: 100px;
 }
 
 .float-right-hbottom {
@@ -88,6 +104,7 @@ body {
     text-decoration: none;
     color: #33475b;
     font-weight: bolder;
+
 }
 
 
@@ -96,6 +113,7 @@ body {
     padding: 10px;
     margin-right: 5%;
     color: white;
+
 
 }
 
@@ -108,25 +126,24 @@ body {
     color: #ff7a59;
     text-decoration: none;
     font-weight: 700;
-
+    display: inline-block;
 }
 
-.buttons {
-    float: right;
 
-}
 
 
 
 #jumbotron {
-    height: 400px;
+    height: 700px;
     background-color: rgb(255, 235, 205 , 0.4);
 }
 
 .jumbo-left {
-    width: 35%;
+    width: 40%;
     background-color: ;
     float: left;
+    margin-top: 150px;
+
 }
 
 .jumbo-left h1 {
@@ -169,15 +186,7 @@ body {
     margin: 18px 0px 0px;
 }
 
-.jumbo-right {
-    width: 65%;
-    /*background-image: url("images/habbo.png");*/
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    float: left;
-}
+
 
 #sectionmain {
     background-color: ;
