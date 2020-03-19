@@ -39,7 +39,7 @@ body {
 #header-bottom {
     padding: 50px;
     height: 150px;
-    
+
     border-bottom: 1px solid #cbd6e2;;
 }
 
@@ -135,7 +135,9 @@ body {
 
 #jumbotron {
     height: 700px;
-    background-color: rgb(255, 235, 205 , 0.4);
+    /*background-color: rgb(255, 235, 205 , 0.4);*/
+    background-image: url("images/background-jumbo.png");
+    background-size: contain;
 }
 
 .jumbo-left {
