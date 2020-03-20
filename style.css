@@ -412,6 +412,7 @@ ul li {
 
 #links {
     background-color: #33475b;
+
 }
 
 
@@ -421,6 +422,8 @@ ul li {
 .section {
 
     padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
     float: left;
     width: 270px;
 }
@@ -469,7 +472,9 @@ ul li {
 
 #socialinks i {
     font-size: 18px;
-    padding: 10px;
+padding-top: 15px;
+    padding-left: 2px;
+    padding-right: 15px;
     color: #cbd6e2;
 }
 
@@ -477,8 +482,19 @@ ul li {
 
 #footer  {
     padding-top: 40px;
-background-color: #33475b;
+    padding-bottom: 35px;
+    background-color: #33475b;
 }
+
+
+.languages {
+    border-bottom: 1px solid #cbd6e2;
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
 
 .boxlang {
     width: 60%;
@@ -490,5 +506,43 @@ background-color: #33475b;
     color: #cbd6e2;
     font-size: 16px;
     text-decoration:none;
-    padding: 9px 18px;
+    padding: 9px 25px;
+}
+
+
+.copyright {
+    margin-top: 20px;
+
+
+}
+
+.logo-float-left {
+    float: left;
+    width: 20%;
+}
+
+.logo-float-left img {
+ margin-left: -10px;
+}
+
+
+.legal-float-right {
+    float: left;
+    width: 80%;
+    text-align: right;
+    line-height: 65px;
+
+}
+
+.legal-float-right a {
+    padding: 9px 10px;
+    font-size: 18px;
+    color: #CBD6E2;
+    text-decoration: none;
+
+}
+
+
+.legalinks {
+    margin-right: 30px;
 }
