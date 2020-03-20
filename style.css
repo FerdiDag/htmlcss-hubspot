@@ -65,7 +65,6 @@ body {
     width: 45%;
     background-color: ;
     line-height: 110px;
-
 }
 
 .float-left-hbottom {
@@ -383,7 +382,6 @@ ul li {
     background-size: 55%;
     background-position: right;
     height: 400px;
-
 }
 
 .icons {
@@ -396,10 +394,7 @@ ul li {
 
 .small {
     color: #516f90;
-
-
 }
-
 
 /*border-radius: 15px;
     display: inline-block;
@@ -408,19 +403,11 @@ ul li {
     padding: 20px;
     font-size: 20px;
     margin: 18px 0px 0px*/
-
-
 #links {
     background-color: #33475b;
-
 }
 
-
-
-
-
 .section {
-
     padding-top: 70px;
     padding-left: 20px;
     padding-right: 20px;
@@ -434,86 +421,62 @@ ul li {
     padding-bottom: 5px;
 }
 
-
-
 .section a {
     display: block;
     padding: 9px 0px;
     color: #cbd6e2;
     font-size: 16px;
-    text-decoration:none;
-
+    text-decoration: none;
 }
 
 .support {
-
     margin-top: 15px;
-	background-color:#ffffff;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-
-	color:#666666;
-	font-family:Arial;
-	font-size:13px;
-
-	padding:10px 15px;
-	text-decoration:none;
-
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #666666;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 10px 15px;
+    text-decoration: none;
 }
 
 #socialinks {
     padding-top: 10px;
-
-
-
 }
-
 
 #socialinks i {
     font-size: 18px;
-padding-top: 15px;
-    padding-left: 2px;
+    padding-top: 15px;
+    padding-left: 3px;
     padding-right: 15px;
     color: #cbd6e2;
 }
 
-
-
-#footer  {
+#footer {
     padding-top: 40px;
     padding-bottom: 35px;
     background-color: #33475b;
 }
 
-
 .languages {
     border-bottom: 1px solid #cbd6e2;
-
     padding-top: 30px;
     padding-bottom: 50px;
-}
-
-
-
-.boxlang {
-    width: 60%;
+    text-align: center;
     margin: auto;
-
 }
 
-.boxlang a {
+.languages a {
     color: #cbd6e2;
     font-size: 16px;
-    text-decoration:none;
+    text-decoration: none;
     padding: 9px 25px;
 }
 
-
 .copyright {
     margin-top: 20px;
-
-
 }
 
 .logo-float-left {
@@ -522,16 +485,14 @@ padding-top: 15px;
 }
 
 .logo-float-left img {
- margin-left: -10px;
+    margin-left: -10px;
 }
-
 
 .legal-float-right {
     float: left;
     width: 80%;
     text-align: right;
     line-height: 65px;
-
 }
 
 .legal-float-right a {
@@ -539,9 +500,7 @@ padding-top: 15px;
     font-size: 18px;
     color: #CBD6E2;
     text-decoration: none;
-
 }
-
 
 .legalinks {
     margin-right: 30px;
