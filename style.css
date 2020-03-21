@@ -98,6 +98,16 @@ body {
     padding-right: 9px;
 }
 
+.dropdownmenu::after {
+    content: '\f0d7';
+    color: #7c98b6;
+    font-size: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: "Font Awesome 5 Pro";
+}
+
 .hubspot {
     background-color: #ff7a59;
     padding: 10px;
@@ -293,7 +303,7 @@ h2.plus::after {
     font-size: 10px;
     font-weight: bold;
     font-family: "Font Awesome 5 Pro";
-   vertical-align: middle;
+    vertical-align: middle;
 }
 
 #results p {
@@ -426,7 +436,7 @@ h2.plus::after {
 
 .section h3 {
     color: white;
-    font-weight: lighter;
+    font-size: 18px;
     padding-bottom: 5px;
 }
 
@@ -434,8 +444,18 @@ h2.plus::after {
     display: block;
     padding: 9px 0px;
     color: #cbd6e2;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
+}
+
+.dropdown::after {
+    content: '\f0d7';
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: "Font Awesome 5 Pro";
 }
 
 .support {
