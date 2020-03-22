@@ -60,8 +60,22 @@ body {
 
 .float-left-menu {
     height: 100%;
-    width: 45%;
+    width: 50%;
     line-height: 110px;
+}
+
+.float-left-menu a {
+    text-decoration: none;
+    color: #33475b;
+}
+
+.english {
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    padding-right: 15px;
+}
+
+.contact {
+    padding-left: 15px;
 }
 
 .float-left-hbottom {
@@ -122,6 +136,11 @@ body {
     display: inline-block;
 }
 
+.fa-search {
+    color: #84d1e0;
+    padding-right: 15px;
+}
+
 #jumbotron {
     height: 700px;
     /*background-color: rgb(255, 235, 205 , 0.4);*/
@@ -176,7 +195,6 @@ body {
 }
 
 #sectionmain {
-    background-color: ;
     height: 900px;
 }
 
@@ -189,7 +207,6 @@ body {
 .feature-box-top-left {
     width: 35%;
     padding-right: 60px;
-    background-color: ;
     float: left;
 }
 
@@ -377,7 +394,6 @@ h2.plus::after {
 
 .startgrow-left h2 {
     font-size: 32px;
-    margin:
 }
 
 .startgrow-left p {
